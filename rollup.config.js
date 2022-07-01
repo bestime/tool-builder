@@ -24,7 +24,8 @@ export default {
     strict: false,
     name: 'ns',
     indent: false,
-    interop: false
+    interop: false,
+    footer: 'export default ns;'
   },
   plugins: [
     babel({ babelHelpers: 'bundled' }),
