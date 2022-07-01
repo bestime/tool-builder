@@ -11,7 +11,7 @@ const banner = `/**
  * javascript 常用工具库 ${TOOL_NAME}
  * @QQ 1174295440
  * @author Bestime
- * @see https://github.com/bestime/tool
+ * @see https://github.com/bestime/tool-builder/tree/jcy.asmb.a
  * @update ${formatTime('YYYY-MM-DD HH:mm:ss', new Date())}
  */`
 
@@ -20,7 +20,7 @@ export default {
   input: './src/library.js',
   output: {
     file: 'dist/' + TOOL_NAME,
-    format: 'cjs',    
+    format: 'iife',    
     strict: false,
     name: 'ns',
     indent: false,
