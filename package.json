@@ -1,0 +1,30 @@
+{
+  "name": "jcy.asmb.a",
+  "version": "1.0.0",
+  "description": " javascript tool",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-block-scoping": "^7.12.12",
+    "@babel/plugin-transform-shorthand-properties": "^7.12.1",
+    "@babel/plugin-transform-template-literals": "^7.12.1",
+    "rollup": "2.75.7",
+    "@rollup/plugin-babel": "5.3.1",
+    "rollup-plugin-uglify": "6.0.4"
+  },
+  "scripts": {
+    "build": "rollup --config 'rollup.config.js'"
+  },
+  "author": "bestime1020@gmail.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestime/tool.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/bestime/tool/issues"
+  }
+}
